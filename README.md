@@ -1,48 +1,74 @@
-# Actividad-evaluacion-continua-1
-GESTIÓN ATENCIÓN HOSPITALARIA
+# 🏥 Hospital Management Simulation - C#
 
+Console application developed in **C#** that simulates a hospital patient management system with doctors, waiting room, diagnostic machines and priority handling.
 
-##PREGUNTAS: Ejercicio #1 – Consulta médica – Tarea #1
+The project models concurrency, synchronization and state transitions of patients during their hospital journey.
 
-###¿Cuántos hilos se están ejecutando en este programa? Explica tu respuesta. 
+---
 
-###¿Cuál de los pacientes entra primero en consulta? Explica tu respuesta.
+## ⚙️ Features
 
-###¿Cuál de los pacientes sale primero de consulta? Explica tu respuesta.
+- Patient arrival simulation
+- Waiting room with limited capacity
+- Multiple doctors attending patients
+- Diagnostic machines with limited availability
+- Patient states (Waiting, Consultation, Diagnosis, Finished)
+- Priority system (Emergency, Urgent, General)
+- Queue and synchronization handling
+- Simulation of multiple patients
+- Statistics and logs generation
+- Console-based monitoring of system state
 
-##PREGUNTAS: Ejercicio #1 – Pacientes con datos – Tarea #2
+---
 
-###¿Cuál de los pacientes sale primero de consulta? Explica tu respuesta.
+## 🛠 Tech Stack
 
-##PREGUNTAS: Ejercicio #1 – Visualización del avance– Tarea #3
+- C#
+- .NET Console Application
+- Multithreading / Concurrency
+- Synchronization and queues
+- Object-Oriented Programming (OOP)
 
-###¿Has decidido visualizar información adicional a la planteada en el ejercicio? ¿Por qué? Plantea qué otra información podría ser útil visualizar.
+---
 
-##PREGUNTAS: Ejercicio #2 – Unidades de diagnóstico – Tarea #1
+## ▶️ How to run
 
-###¿Los pacientes que deben esperar para hacerse las pruebas diagnostico entran luego a hacerse las pruebas por orden de llegada? Explica que tipo de pruebas has realizado para comprobar este comportamiento. 
+1. Clone the repository
+2. Open with **Visual Studio**
+3. Build the solution
+4. Run the console application
 
-##PREGUNTAS: Ejercicio #2 – Unidades de diagnóstico – Tarea #2
+---
 
-###Explica la solución planteada en tu código y porqué las has escogido.
-###Plantea otra posibilidad de solución a la que has programado.
+## 📊 Simulation Description
 
-##PREGUNTAS: Ejercicio #2 – Más pacientes – Tarea #3
+The system simulates a hospital with:
 
-###Explica el planteamiento de tu código y plantea otra posibilidad de solución a la que has programado y porqué has escogido la tuya.
-###¿Los pacientes que deben esperar entran luego a la consulta por orden de llegada? Explica que tipo de pruebas has realizado para comprobar este comportamiento. 
+- Waiting room (limited capacity)
+- 4 doctors attending one patient at a time
+- 2 diagnostic machines
+- Patient priority levels
+- Patient state transitions and timing
+- Queue ordering and synchronization
 
-##PREGUNTAS: Ejercicio #2 – Prioridades de los pacientes – Tarea #4
-###Explica el planteamiento de tu código y plantea otra posibilidad de solución a la que has programado y porqué has escogido la tuya.
+---
 
-##PREGUNTAS: Ejercicio #2 – Estadísticas y logs – Tarea #5
-###¿Puedes explicar tu código y porque has decidido hacerlo así? 
+## 📚 What I learned
 
-##PREGUNTAS: Ejercicio #3 – Pacientes infinitos – Tarea #1
-###Tarea 1, ¿cumple requisitos? [Pruebas] [Explicación]
+- Multithreading and synchronization in C#
+- Managing shared resources
+- Queue and priority handling
+- State-driven simulation
+- Designing console-based systems
+- Object-oriented design in real scenarios
 
-###Tarea 2, ¿qué comportamientos no previstos detectas? [Pruebas] [Explicación]
+---
 
-###Tarea 3, ¿Cómo adaptarías tu solución? [Explicación]
+## 👩‍💻 Author
+
+**Maria Celemin**  
+DAM Student | Kotlin • Java • Laravel • MySQL  
+Seeking internship
+
 
 
